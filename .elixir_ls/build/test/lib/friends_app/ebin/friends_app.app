@@ -1,0 +1,13 @@
+{application,friends_app,
+             [{applications,[kernel,stdlib,elixir,logger,faker,scribe,
+                             nimble_csv]},
+              {description,"friends_app"},
+              {modules,['Elixir.FriendsApp','Elixir.FriendsApp.CLI.Friend',
+                        'Elixir.FriendsApp.CLI.Main',
+                        'Elixir.FriendsApp.CLI.Menu',
+                        'Elixir.FriendsApp.CLI.Menu.Choice',
+                        'Elixir.FriendsApp.CLI.Menu.Items',
+                        'Elixir.FriendsApp.DB.CSV','Elixir.Mix.Tasks.Start',
+                        'Elixir.Mix.Tasks.Utils.AddFakeFriends']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
